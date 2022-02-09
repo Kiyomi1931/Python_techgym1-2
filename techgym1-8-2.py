@@ -46,7 +46,7 @@ def play():
   view_hand(my_hand, you_hand)
   result = get_result(hand_diff)
   view_result(result)
-  if result=='draw':
+  if result == 'draw':
     play()
 
 start_message()
